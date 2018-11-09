@@ -1,0 +1,6 @@
+[xorm] [info]  2018/11/09 17:54:57.253203 [SQL] SELECT count(*) FROM `account`
+[xorm] [info]  2018/11/09 17:54:57.253769 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 17:54:57.254415 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 17:54:57.255103 [SQL] SELECT `id`, `name` FROM `account`
+[xorm] [info]  2018/11/09 17:54:57.255840 [SQL] SELECT `id`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 17:54:57.256698 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account` LIMIT 3 OFFSET 2
