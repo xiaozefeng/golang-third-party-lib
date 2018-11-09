@@ -21,7 +21,8 @@ var Engine *xorm.Engine
 
 func init() {
 	var err error
-	Engine, err = xorm.NewEngine("mysql", "root:1qaz@WSX123@tcp(192.168.1.96:3306)/foo?charset=utf8")
+	//Engine, err = xorm.NewEngine("mysql", "root:1qaz@WSX123@tcp(192.168.1.96:3306)/foo?charset=utf8")
+	Engine, err = xorm.NewEngine("mysql", "root:root@tcp(localhost:3306)/foo?charset=utf8")
 	if err != nil {
 		log.Fatal(err)
 	}

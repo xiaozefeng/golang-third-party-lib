@@ -1,6 +1,26 @@
-[xorm] [info]  2018/11/09 17:54:57.253203 [SQL] SELECT count(*) FROM `account`
-[xorm] [info]  2018/11/09 17:54:57.253769 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
-[xorm] [info]  2018/11/09 17:54:57.254415 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
-[xorm] [info]  2018/11/09 17:54:57.255103 [SQL] SELECT `id`, `name` FROM `account`
-[xorm] [info]  2018/11/09 17:54:57.255840 [SQL] SELECT `id`, `balance`, `version` FROM `account`
-[xorm] [info]  2018/11/09 17:54:57.256698 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account` LIMIT 3 OFFSET 2
+[xorm] [info]  2018/11/09 19:19:58.133877 [SQL] SELECT count(*) FROM `account`
+[xorm] [info]  2018/11/09 19:19:58.136311 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe0", 0, 1}
+[xorm] [debug] 2018/11/09 19:19:58.138568 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.138662 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe1", 100, 1}
+[xorm] [debug] 2018/11/09 19:19:58.139291 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.139401 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe2", 200, 1}
+[xorm] [debug] 2018/11/09 19:19:58.141301 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.141404 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe3", 300, 1}
+[xorm] [debug] 2018/11/09 19:19:58.142047 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.142125 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe4", 400, 1}
+[xorm] [debug] 2018/11/09 19:19:58.142700 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.142829 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe5", 500, 1}
+[xorm] [debug] 2018/11/09 19:19:58.143455 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.143530 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe6", 600, 1}
+[xorm] [debug] 2018/11/09 19:19:58.144107 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.144169 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe7", 700, 1}
+[xorm] [debug] 2018/11/09 19:19:58.144654 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.144720 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe8", 800, 1}
+[xorm] [debug] 2018/11/09 19:19:58.145208 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.145281 [SQL] INSERT INTO `account` (`name`,`balance`,`version`) VALUES (?, ?, ?) []interface {}{"joe9", 900, 1}
+[xorm] [debug] 2018/11/09 19:19:58.146226 [cache] clear sql:account
+[xorm] [info]  2018/11/09 19:19:58.146332 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 19:19:58.147556 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 19:19:58.149113 [SQL] SELECT `id`, `name` FROM `account`
+[xorm] [info]  2018/11/09 19:19:58.150103 [SQL] SELECT `id`, `balance`, `version` FROM `account`
+[xorm] [info]  2018/11/09 19:19:58.151400 [SQL] SELECT `id`, `name`, `balance`, `version` FROM `account` LIMIT 3 OFFSET 2
